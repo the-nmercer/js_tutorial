@@ -186,42 +186,54 @@
 // PART 7
 
 // booleans and comparisons
-console.log(true, false, "true", "false");
+// console.log(true, false, "true", "false");
 
-// methods can return booleans
-let email = 'luigi@thenetninja.co.uk';
-let result = email.includes('@');
-console.log(result);
+// // methods can return booleans
+// let email = 'luigi@thenetninja.co.uk';
+// let result = email.includes('@');
+// console.log(result);
 
-result = email.includes('!');
-console.log(result);
+// result = email.includes('!');
+// console.log(result);
 
-let names = ['mario', 'luigi', 'toad'];
-result = names.includes('luigi');
-console.log(result);
+// let names = ['mario', 'luigi', 'toad'];
+// result = names.includes('luigi');
+// console.log(result);
 
-result = names.includes('bowser');
-console.log(result);
+// result = names.includes('bowser');
+// console.log(result);
 
-// comparison operators
+// // comparison operators
+// let age = 25;
+// console.log(age == 25);
+// console.log(age == 30);
+// console.log(age != 30);
+// console.log(age != 25);
+
+// console.log("");
+
+// console.log(age > 20);
+// console.log(age < 20);
+// console.log(age <= 25);
+// console.log(age >= 25);
+
+// console.log("");
+
+// let name = 'shaun';
+// console.log(name == 'shaun');
+// console.log(name == 'Shaun');
+// console.log(name > 'crystal');
+// console.log(name > 'Shaun');
+// console.log(name > 'Crystal');
+
+// PART 8
+
 let age = 25;
+
+// loose comparison
 console.log(age == 25);
-console.log(age == 30);
-console.log(age != 30);
-console.log(age != 25);
+console.log(age == '25');
 
-console.log("");
-
-console.log(age > 20);
-console.log(age < 20);
-console.log(age <= 25);
-console.log(age >= 25);
-
-console.log("");
-
-let name = 'shaun';
-console.log(name == 'shaun');
-console.log(name == 'Shaun');
-console.log(name > 'crystal');
-console.log(name > 'Shaun');
-console.log(name > 'Crystal');
+// strict comparison
+console.log(age === 25);
+console.log(age === '25');
