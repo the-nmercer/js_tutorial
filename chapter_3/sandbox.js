@@ -41,20 +41,33 @@
 // PART 4
 
 // if statements
-const age = 25;
+// const age = 25;
 
-if(age > 20){
-  console.log('you are over 20 years old');
-}
+// if(age > 20){
+//   console.log('you are over 20 years old');
+// }
 
-const ninjas = ['shaun', 'ryu', 'chun-li', 'yoshi'];
+// const ninjas = ['shaun', 'ryu', 'chun-li', 'yoshi'];
 
-if(ninjas.length > 3){
-  console.log("that's a lot of ninjas");
-}
+// if(ninjas.length > 3){
+//   console.log("that's a lot of ninjas");
+// }
 
-const password = 'p@ssword';
+// const password = 'p@ssword';
 
-if(password.length >= 8){
-  console.log('that password is long enough')
+// if(password.length >= 8){
+//   console.log('that password is long enough')
+// }
+
+// PART 5
+
+// else if statements
+const password = 'paasasdfasdfsword';
+
+if(password.length >= 12){
+  console.log('that password is mighty strong')
+} else if(password.length >= 8){
+  console.log('that password is long enough');
+} else {
+  console.log('password is not long enough');
 }
