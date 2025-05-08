@@ -143,34 +143,42 @@
 
 // PART 5
 
-let ninjas = ['shaun', 'ryu', 'chun-li'];
-console.log(ninjas)
-console.log(ninjas[1]);
+// let ninjas = ['shaun', 'ryu', 'chun-li'];
+// console.log(ninjas)
+// console.log(ninjas[1]);
 
-ninjas[1] = 'ken';
-console.log(ninjas[1]);
+// ninjas[1] = 'ken';
+// console.log(ninjas[1]);
 
-let ages = [20,25,30,35];
-console.log(ages[2]);
+// let ages = [20,25,30,35];
+// console.log(ages[2]);
 
-let random = ['shaun', 'crystal', 30, 20];
-console.log(random);
+// let random = ['shaun', 'crystal', 30, 20];
+// console.log(random);
 
-console.log(ninjas.length);
+// console.log(ninjas.length);
 
-// array methods
+// // array methods
 
-let result = ninjas.join(', ')
-console.log(result);
+// let result = ninjas.join(', ')
+// console.log(result);
 
-result = ninjas.indexOf('chun-li');
-console.log(result);
+// result = ninjas.indexOf('chun-li');
+// console.log(result);
 
-result = ninjas.concat(['ken', 'crystal']);
-console.log(result);
+// result = ninjas.concat(['ken', 'crystal']);
+// console.log(result);
 
-result = ninjas.push('ken');
-console.log(result);
+// result = ninjas.push('ken');
+// console.log(result);
 
-result = ninjas.pop();
-console.log(result);
+// result = ninjas.pop();
+// console.log(result);
+
+// PART 6
+
+let age;
+console.log(age, age + 3, `the age is ${age}`);
+
+age = null;
+console.log(age, age + 3, `the age is ${age}`);
