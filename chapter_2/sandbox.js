@@ -228,12 +228,44 @@
 
 // PART 8
 
-let age = 25;
+// let age = 25;
 
-// loose comparison
-console.log(age == 25);
-console.log(age == '25');
+// // loose comparison
+// console.log(age == 25);
+// console.log(age == '25');
 
-// strict comparison
-console.log(age === 25);
-console.log(age === '25');
+// // strict comparison
+// console.log(age === 25);
+// console.log(age === '25');
+
+// PART 9
+
+// type conversion
+let score = '100';
+console.log(score + 1);
+console.log(typeof score);
+
+score = Number(score);
+console.log(score + 1);
+console.log(typeof score);
+
+let result = Number('hello');
+console.log(result);
+
+result = String(50);
+console.log(result, typeof result);
+
+result = Boolean(100);
+console.log(result);
+
+result = Boolean(0);
+console.log(result);
+
+result = Boolean(-100);
+console.log(result);
+
+result = Boolean('0');
+console.log(result);
+
+result = Boolean('');
+console.log(result);
