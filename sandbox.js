@@ -21,8 +21,18 @@
 // PART 2
 
 // arguments and parameters
-const speak = function(name = 'luigi', time = 'night'){
-  console.log(`good ${time} ${name}`);
+// const speak = function(name = 'luigi', time = 'night'){
+//   console.log(`good ${time} ${name}`);
+// };
+
+// speak('nick', 'day');
+
+// PART 3
+
+// returning values
+const calcArea = function(radius){
+  return 3.14 * radius**2;
 };
 
-speak('nick', 'day');
+const area = calcArea(5);
+console.log(area);
