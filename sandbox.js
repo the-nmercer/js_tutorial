@@ -45,20 +45,33 @@
 // };
 
 // arrow function
-const calcArea = radius => 3.14 * radius**2;
+// const calcArea = radius => 3.14 * radius**2;
 
-const area = calcArea(5);
-console.log('area is: ', area);
+// const area = calcArea(5);
+// console.log('area is: ', area);
 
-const greet = () => 'hello, world';
-console.log(greet())
+// const greet = () => 'hello, world';
+// console.log(greet())
 
-const bill = (products, tax) => {
-  let total = 0;
-  for(let i =0; i < products.length; i++){
-    total += products[i] + products[i] * tax;
-  }
-  return total;
-}
+// const bill = (products, tax) => {
+//   let total = 0;
+//   for(let i =0; i < products.length; i++){
+//     total += products[i] + products[i] * tax;
+//   }
+//   return total;
+// }
 
-console.log(bill([15,10,30], 0.2))
+// console.log(bill([15,10,30], 0.2))
+
+// PART 5
+
+const name = 'shaun';
+
+// functions
+const greet = () => 'hello';
+let resultOne = greet();
+console.log(resultOne);
+
+// methods
+let resultTwo = name.toUpperCase();
+console.log(resultTwo);
