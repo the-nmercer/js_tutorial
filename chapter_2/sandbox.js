@@ -49,3 +49,21 @@
 // console.log(index);
 
 // PART 2 (UNCOMMENT ONE PART AT A TIME)
+
+// common string methods
+
+let email = 'mario@thenetninja.co.uk';
+let result = email.lastIndexOf('n');
+console.log(result);
+
+result = email.slice(0, 5);
+console.log(result);
+
+result = email.substr(4, 10);
+console.log(result);
+
+result = email.replace('m', 'w');
+console.log(result);
+
+result = email.replace('n', 'w');
+console.log(result);
