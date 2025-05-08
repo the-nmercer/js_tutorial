@@ -70,49 +70,73 @@
 
 // PART 3
 
-let radius = 10;
-const pi = 3.14;
+// let radius = 10;
+// const pi = 3.14;
 
-console.log(radius, pi);
+// console.log(radius, pi);
 
-// math operators +, -, *, /, **, %
+// // math operators +, -, *, /, **, %
 
-console.log(10 / 2);
-let result = radius % 3;
+// console.log(10 / 2);
+// let result = radius % 3;
+// console.log(result);
+
+// result = pi * radius**2;
+
+// console.log(result);
+
+// // order of operation - B I D M A S
+
+// result = 5 * (10-3)**2;
+// console.log(result);
+
+// let likes = 10;
+// likes++;
+
+// console.log(likes);
+
+// likes--;
+// console.log(likes);
+
+// likes += 10;
+// console.log(likes);
+
+// likes -= 5;
+// console.log(likes);
+
+// likes *= 2;
+// console.log(likes);
+
+// likes /= 2;
+// console.log(likes);
+
+// // NaN - not a number
+
+// //console.log(5 / 'hello');
+
+// result = 'The blog has ' + likes + ' likes.';
+// console.log(result);
+
+// PART 4
+
+// template strings
+const title = 'Best reads of 2025';
+const author = 'Mario';
+const likes = 30;
+
+// concatenation way
+let result = 'The blog called ' + title + ' by ' + author + ' has ' + likes + ' likes';
 console.log(result);
 
-result = pi * radius**2;
-
+// template string way
+result = `The blog called ${title} by ${author} has ${likes} likes`;
 console.log(result);
 
-// order of operation - B I D M A S
+// creating html templates
+let html = `
+  <h2>${title}</h2>
+  <p>By ${author}</p>
+  <span>This blog has ${likes}</span>
+`;
 
-result = 5 * (10-3)**2;
-console.log(result);
-
-let likes = 10;
-likes++;
-
-console.log(likes);
-
-likes--;
-console.log(likes);
-
-likes += 10;
-console.log(likes);
-
-likes -= 5;
-console.log(likes);
-
-likes *= 2;
-console.log(likes);
-
-likes /= 2;
-console.log(likes);
-
-// NaN - not a number
-
-//console.log(5 / 'hello');
-
-result = 'The blog has ' + likes + ' likes.';
-console.log(result);
+console.log(html);
