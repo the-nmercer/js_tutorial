@@ -24,3 +24,10 @@ console.log('hello, world');
 
 let email = 'mario@mariomario.mario'
 console.log(email);
+
+// string concatenation
+let firstName = 'Brandon';
+let lastName = 'Sanderson';
+
+let fullName = firstName + ' ' + lastName;
+console.log(fullName);
