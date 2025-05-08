@@ -31,3 +31,11 @@ let lastName = 'Sanderson';
 
 let fullName = firstName + ' ' + lastName;
 console.log(fullName);
+
+// getting characters
+console.log(fullName[2]);
+
+// string length
+console.log(fullName.length);
+
+// string methods
