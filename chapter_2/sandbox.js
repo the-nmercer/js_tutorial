@@ -18,3 +18,9 @@ console.log(points);
 
 var score = 75;
 console.log(score);
+
+// strings
+console.log('hello, world');
+
+let email = 'mario@mariomario.mario'
+console.log(email);
