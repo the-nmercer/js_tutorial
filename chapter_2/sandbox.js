@@ -52,18 +52,60 @@
 
 // common string methods
 
-let email = 'mario@thenetninja.co.uk';
-let result = email.lastIndexOf('n');
+// let email = 'mario@thenetninja.co.uk';
+// let result = email.lastIndexOf('n');
+// console.log(result);
+
+// result = email.slice(0, 5);
+// console.log(result);
+
+// result = email.substr(4, 10);
+// console.log(result);
+
+// result = email.replace('m', 'w');
+// console.log(result);
+
+// result = email.replace('n', 'w');
+// console.log(result);
+
+// PART 3
+
+let radius = 10;
+const pi = 3.14;
+
+console.log(radius, pi);
+
+// math operators +, -, *, /, **, %
+
+console.log(10 / 2);
+let result = radius % 3;
 console.log(result);
 
-result = email.slice(0, 5);
+result = pi * radius**2;
+
 console.log(result);
 
-result = email.substr(4, 10);
+// order of operation - B I D M A S
+
+result = 5 * (10-3)**2;
 console.log(result);
 
-result = email.replace('m', 'w');
-console.log(result);
+let likes = 10;
+likes++;
 
-result = email.replace('n', 'w');
-console.log(result);
+console.log(likes);
+
+likes--;
+console.log(likes);
+
+likes += 10;
+console.log(likes);
+
+likes -= 5;
+console.log(likes);
+
+likes *= 2;
+console.log(likes);
+
+likes /= 2;
+console.log(likes);
