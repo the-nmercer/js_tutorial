@@ -113,3 +113,6 @@ console.log(likes);
 // NaN - not a number
 
 //console.log(5 / 'hello');
+
+result = 'The blog has ' + likes + ' likes.';
+console.log(result);
