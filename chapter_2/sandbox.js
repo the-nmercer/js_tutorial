@@ -109,3 +109,7 @@ console.log(likes);
 
 likes /= 2;
 console.log(likes);
+
+// NaN - not a number
+
+//console.log(5 / 'hello');
